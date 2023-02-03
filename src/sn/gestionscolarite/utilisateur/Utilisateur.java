@@ -5,6 +5,7 @@ public class Utilisateur {
 	protected String login;
 	protected String password ;
 	private static int nbUtilisteur;
+	Public int lala;
 
 	public Utilisateur(int id,String login, String pwd) {
 		this(login, pwd);
